@@ -4,9 +4,10 @@ import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
 import { Button, Grid } from '@mui/material'
 
-//Components imports
+//Components Imports
 import SelectCourses from '@/components/academy/my-courses/Select'
 
+// ejemplos de cursos
 const courses = [
   {
     title: 'React Native',
@@ -24,7 +25,6 @@ const courses = [
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5rLh0Ed_H4b8ZM08EK6JZ1gBjVYVDmfmRQ&s',
     rating: 4.4
   }
-  // ejemplos de cursos
 ]
 
 export default function CardCourses() {
