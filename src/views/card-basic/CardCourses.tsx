@@ -3,6 +3,8 @@ import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
 import { Button, Grid } from '@mui/material'
+
+//Components imports
 import SelectCourses from '@/components/academy/my-courses/Select'
 
 const courses = [

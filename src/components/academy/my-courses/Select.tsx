@@ -1,7 +1,9 @@
 'use client'
-
-import { FormControl, InputLabel, Select, MenuItem } from '@mui/material'
+// React Imports
 import { useState } from 'react'
+
+// MUI Imports
+import { FormControl, InputLabel, Select, MenuItem } from '@mui/material'
 
 const SelectCourses = () => {
   const [modelo, setModelo] = useState('todos')

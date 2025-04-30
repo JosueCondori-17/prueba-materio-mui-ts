@@ -1,5 +1,8 @@
-import CardCourses from '@/views/card-basic/CardCourses'
+// MUI imports
 import { Button, TextField } from '@mui/material'
+
+//Components imports
+import CardCourses from '@/views/card-basic/CardCourses'
 
 const CoursesPage = () => {
   return (
